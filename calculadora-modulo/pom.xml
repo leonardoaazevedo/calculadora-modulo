@@ -25,8 +25,15 @@
             <version>5.4.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.4.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
+    <!-- Configuração de distribuição do projeto -->
     <distributionManagement>
         <repository>
             <id>my-repo</id>
@@ -83,7 +90,6 @@
                     </archive>
                 </configuration>
             </plugin>
-
 
             <!-- Plugin para instalar o artefato no repositório local -->
             <plugin>
