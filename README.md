@@ -3,7 +3,8 @@
 # A calculadora aceita apenas inteiros
 
 # Operadores:
- + para soma
- - para subtracao
- * para multiplicacao
- / para divisao
+
+ "+" para soma
+ "-" para subtracao
+ "*" para multiplicacao
+ "/" para divisao
