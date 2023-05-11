@@ -5,6 +5,9 @@
 # Operadores:
 
  "+" para soma
+ 
  "-" para subtracao
+ 
  "*" para multiplicacao
+ 
  "/" para divisao
