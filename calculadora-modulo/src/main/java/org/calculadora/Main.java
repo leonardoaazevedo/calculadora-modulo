@@ -1,7 +1,11 @@
 package org.calculadora;
 
+import org.calculadora.calculadora.Calculadora;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Calculadora calculadora = new Calculadora();
+        System.out.println(calculadora.calcular(4,2,"/"));
     }
 }
