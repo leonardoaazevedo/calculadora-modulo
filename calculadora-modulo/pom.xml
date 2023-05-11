@@ -75,17 +75,15 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.2.0</version>
                 <configuration>
-                    <classifier>exec</classifier>
                     <archive>
                         <manifest>
+                            <addClasspath>true</addClasspath>
                             <mainClass>org.calculadora.Main</mainClass>
                         </manifest>
-                        <manifestEntries>
-                            <Class-Path>.</Class-Path>
-                        </manifestEntries>
                     </archive>
                 </configuration>
             </plugin>
+
 
             <!-- Plugin para instalar o artefato no repositório local -->
             <plugin>
